@@ -51,6 +51,7 @@ Key insights:
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/9c8c8c91-f641-4dae-8ea4-65708f60103f" />
 
 **InfoNCE Loss** (the modern standard):
+
 $$\mathcal{L}_{\text{InfoNCE}} = -\mathbb{E}\left[\log \frac{\exp(f'(x)^\top f(c)/\tau)}{\exp(f'(x)^\top f(c)/\tau) + \sum_{i=1}^{N-1}\exp(f'(x_i)^\top f(c)/\tau)}\right]$$
 
 - $\tau$: temperature (controls sharpness)
