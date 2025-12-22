@@ -27,7 +27,7 @@ All paradigms minimize **expected risk**: $\min_\theta \mathbb{E}_{(x,y)\sim\mat
 
 - *"The dark matter of intelligence"*: Common sense acquired from backgrounfd knowledge is invisible yet forms the bulk of human intelligence, just as dark matter is invisible yet makes up most of the universe. SSL is proposed as the path to acquiring this background knowledge, since we can't label everything in the world for supervised learning. It enables learning from unlimited unlabeled data and powers GPT, BERT, CLIP, and virtually all modern foundation models.
 
-**Blog:** [Self-supervised learning: The dark matter of intelligence](https://ai.meta.com/blog/self-supervised-learning-the-dark-matter-of-intelligence/) — ** Yann LeCun & Ishan Misra, Meta AI (2021)**
+**Blog:** [Self-supervised learning: The dark matter of intelligence](https://ai.meta.com/blog/self-supervised-learning-the-dark-matter-of-intelligence/) — **Yann LeCun & Ishan Misra, Meta AI (2021)**
 
 Key insights:
 - **SSL = Predictive learning**: Predict hidden parts from visible parts → forces learning world structure
@@ -35,7 +35,7 @@ Key insights:
 - **Energy-Based view**: SSL learns $F(x,y)$ assigning low energy to compatible pairs; main challenge is avoiding **collapse**
 - **Contrastive vs Non-contrastive**: Contrastive (SimCLR, InfoNCE) pushes up energy on negatives but scales poorly; Non-contrastive (BYOL, SwAV) uses architectural tricks instead
 
-<img width="700" alt="NLP vs Vision uncertainty" src="https://github.com/user-attachments/assets/8e73044e-5120-4482-b311-8f98b0dcf344" />
+<img width="500" alt="NLP vs Vision uncertainty" src="https://github.com/user-attachments/assets/8e73044e-5120-4482-b311-8f98b0dcf344" />
 
 ### The Two-Stage Pipeline
 1. **Pretraining**: Learn general representations $\psi_\theta: x \mapsto z \in \mathbb{R}^m$ via pretext task
@@ -150,3 +150,4 @@ Pre-training scaling may be hitting diminishing returns → shift toward:
 2. The choice of pretext task (contrastive/masked/autoregressive) shapes the entire architecture
 3. Scaling laws provide principled guidance for resource allocation
 4. Model size alone isn't everything — data scaling matters equally (Chinchilla)
+
