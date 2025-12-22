@@ -47,6 +47,7 @@ Key insights:
 
 ### 1. Contrastive Learning
 **Principle**: Pull similar pairs together, push dissimilar pairs apart.
+
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/9c8c8c91-f641-4dae-8ea4-65708f60103f" />
 
 **InfoNCE Loss** (the modern standard):
@@ -151,6 +152,7 @@ Pre-training scaling may be hitting diminishing returns → shift toward:
 2. The choice of pretext task (contrastive/masked/autoregressive) shapes the entire architecture
 3. Scaling laws provide principled guidance for resource allocation
 4. Model size alone isn't everything — data scaling matters equally (Chinchilla)
+
 
 
 
