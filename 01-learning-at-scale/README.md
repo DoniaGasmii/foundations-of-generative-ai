@@ -25,7 +25,7 @@ All paradigms minimize **expected risk**: $\min_\theta \mathbb{E}_{(x,y)\sim\mat
 
 ### Why It Matters
 
-- *"The dark matter of intelligence"*: Common sense acquired from backgrounfd knowledge is invisible yet forms the bulk of human intelligence, just as dark matter is invisible yet makes up most of the universe. SSL is proposed as the path to acquiring this background knowledge, since we can't label everything in the world for supervised learning. It enables learning from unlimited unlabeled data and powers GPT, BERT, CLIP, and virtually all modern foundation models.
+- *"The dark matter of intelligence"*: Common sense acquired from background knowledge is invisible yet forms the bulk of human intelligence, just as dark matter is invisible yet makes up most of the universe. SSL is proposed as the path to acquiring this background knowledge, since we can't label everything in the world for supervised learning. It enables learning from unlimited unlabeled data and powers GPT, BERT, CLIP, and virtually all modern foundation models.
 
 **Blog:** [Self-supervised learning: The dark matter of intelligence](https://ai.meta.com/blog/self-supervised-learning-the-dark-matter-of-intelligence/) — **Yann LeCun & Ishan Misra, Meta AI (2021)**
 
@@ -150,4 +150,5 @@ Pre-training scaling may be hitting diminishing returns → shift toward:
 2. The choice of pretext task (contrastive/masked/autoregressive) shapes the entire architecture
 3. Scaling laws provide principled guidance for resource allocation
 4. Model size alone isn't everything — data scaling matters equally (Chinchilla)
+
 
