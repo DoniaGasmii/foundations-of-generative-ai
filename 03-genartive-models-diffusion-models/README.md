@@ -17,7 +17,7 @@ Diffusion models are a class of generative models that learn to generate data by
 - **Forward Process (Fixed):** Gradually adds Gaussian noise to data until it becomes pure noise
 - **Reverse Process (Learned):** Neural network learns to denoise, iteratively recovering data from noise
 
-<img width="500" height="100" alt="image" src="https://github.com/user-attachments/assets/101f8b9a-c331-4878-bafd-42b54e43145d" />
+<img width="500" height="200" alt="image" src="https://github.com/user-attachments/assets/101f8b9a-c331-4878-bafd-42b54e43145d" />
 
 ### 2. Mathematical Frameworks
 
