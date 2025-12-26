@@ -3,13 +3,6 @@
 ## Overview
 This week covers three fundamental approaches to generative modeling that form the foundation of modern AI systems: Autoregressive Models, Variational Autoencoders (VAEs), and Generative Adversarial Networks (GANs).
 
-## Key Concepts
-
-### Self-Supervised Learning Review
-- Three main paradigms: Contrastive, Masking, Autoregressive
-- Self-supervision objectives shape architectural choices (attention patterns, encoder-decoder structure)
-- InfoNCE maximizes lower bound on conditional log-likelihood
-
 ### Generative Modeling Fundamentals
 - **Goal**: Learn to model the underlying data distribution p(x)
 - **Key Insight**: By learning to generate data, models discover and encode the structure and patterns in the data
