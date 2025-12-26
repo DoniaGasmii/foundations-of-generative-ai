@@ -3,7 +3,6 @@
 ## Overview
 This week covers three fundamental approaches to generative modeling that form the foundation of modern AI systems: Autoregressive Models, Variational Autoencoders (VAEs), and Generative Adversarial Networks (GANs).
 
-### Generative Modeling Fundamentals
 - **Goal**: Learn to model the underlying data distribution p(x)
 - **Key Insight**: By learning to generate data, models discover and encode the structure and patterns in the data
 - **Maximum Likelihood Learning**: Minimize KL divergence between data and model distributions
