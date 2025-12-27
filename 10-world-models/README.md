@@ -26,5 +26,6 @@ This turns the world model into an **internal simulator not just a memory bank**
 
 ## Four Paradigms of World Models
 
-<img width="841" height="376" alt="image" src="https://github.com/user-attachments/assets/ac44fd92-6015-4d91-8231-2a66572bc22a" />
+<img width="1686" height="764" alt="image" src="https://github.com/user-attachments/assets/9d099efb-c143-4cc1-90e2-0bf10824373c" />
+
 
