@@ -30,6 +30,13 @@ This turns the world model into an **internal simulator not just a memory bank**
 
 ## Key Architectures & Concepts
 
+need to talk about jepa lecun le boss / Dreamer / Diffusion models ... 
+
 ## Applications Beyond Robotics
 
+While world models are often discussed in robotics, **the lecture highlights their transformative potential in biology**, especially in drug discovery and precision medicine. For example, instead of physically testing millions of compounds, we can use generative world models to virtually screen them. In clinics, ‘Virtual Patient’ models integrate multi-modal data to simulate disease progression and guide personalized treatment, even helping doctors choose which diagnostic test to order next. **This bridges AI with real-world medical decision-making.**
+
+<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/2a62a4ba-8aeb-493c-9e19-14ae6de27add" />
+
 ## Conclusion
+
