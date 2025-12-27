@@ -28,4 +28,8 @@ This turns the world model into an **internal simulator not just a memory bank**
 
 <img width="1686" height="764" alt="image" src="https://github.com/user-attachments/assets/9d099efb-c143-4cc1-90e2-0bf10824373c" />
 
+## Key Architectures & Concepts
 
+## Applications Beyond Robotics
+
+## Conclusion
