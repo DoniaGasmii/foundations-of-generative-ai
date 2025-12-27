@@ -6,12 +6,12 @@
 
 <img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/3543890e-866c-408f-aec7-cc85fa8015ee" />
 
- **LLMs are powerful, but they’re static libraries of facts.**  
- Human intelligence is **dynamic**:  
+ **LLMs are powerful, but they’re static libraries of facts.** Human intelligence is **dynamic**:  
  - **Predictive**: we anticipate what happens *before* it does.  
  - **Integrative**: we fuse perception, memory, and knowledge into one coherent picture.  
  - **Adaptive**: we update our understanding when the world changes.  
  - **Multi-scale**: we reason across **time** (milliseconds to years) and **space** (local details to global context).
+
 
 
 
