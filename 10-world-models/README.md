@@ -24,3 +24,7 @@ In generative world modeling, **“generation” means simulating how the world 
 
 This turns the world model into an **internal simulator not just a memory bank**, but a tool for reasoning ahead.
 
+## Four Paradigms of World Models
+
+<img width="841" height="376" alt="image" src="https://github.com/user-attachments/assets/ac44fd92-6015-4d91-8231-2a66572bc22a" />
+
