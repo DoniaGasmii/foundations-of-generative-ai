@@ -1,5 +1,7 @@
 # World Models and Generative World Modeling
 
+## Introduction:
+
  **LLMs are powerful, but they’re static libraries of facts.** Human intelligence is **dynamic**:  
  - **Predictive**: we anticipate what happens *before* it does.  
  - **Integrative**: we fuse perception, memory, and knowledge into one coherent picture.  
@@ -21,3 +23,4 @@ In generative world modeling, **“generation” means simulating how the world 
 - **Generate counterfactuals for planning**: The model simulates **“what if?” scenarios** for different actions, enabling comparison, safe decision-making, and even creating synthetic training data (“dreams”).
 
 This turns the world model into an **internal simulator not just a memory bank**, but a tool for reasoning ahead.
+
