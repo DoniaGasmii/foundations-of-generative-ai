@@ -37,11 +37,12 @@ need to talk about jepa lecun le boss / Dreamer / Diffusion models ...
 While world models are often discussed in robotics, **the lecture highlights their transformative potential in biology**, especially in drug discovery and precision medicine. For example, instead of physically testing millions of compounds, we can use generative world models to virtually screen them. In clinics, ‘Virtual Patient’ models integrate multi-modal data to simulate disease progression and guide personalized treatment, even helping doctors choose which diagnostic test to order next. **This bridges AI with real-world medical decision-making.**
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/2a62a4ba-8aeb-493c-9e19-14ae6de27add" width="600" />
-  <img src="https://github.com/user-attachments/assets/ac737910-259a-4359-a3ed-f16e55201179" width="600" />
+  <img src="https://github.com/user-attachments/assets/2a62a4ba-8aeb-493c-9e19-14ae6de27add" width="550" />
+  <img src="https://github.com/user-attachments/assets/ac737910-259a-4359-a3ed-f16e55201179" width="550" />
 </div>
 
 ## Conclusion
+
 
 
 
