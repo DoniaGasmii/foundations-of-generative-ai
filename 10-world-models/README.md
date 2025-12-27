@@ -1,17 +1,23 @@
 # World Models and Generative World Modeling
 
-**Generative world modeling** means using generative models to predict future states, observations, or dynamics of the world; not just classify or react, but **simulate what could happen next.**
-
-> *For a high-level motivation and roadmap, see Yann LeCun’s 2025 lecture in Harvard on [Self-Supervised Learning, JEPA, and World Models](https://www.youtube.com/watch?v=yUmDRxV0krg).*
-
-<img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/3543890e-866c-408f-aec7-cc85fa8015ee" />
-
  **LLMs are powerful, but they’re static libraries of facts.** Human intelligence is **dynamic**:  
  - **Predictive**: we anticipate what happens *before* it does.  
  - **Integrative**: we fuse perception, memory, and knowledge into one coherent picture.  
  - **Adaptive**: we update our understanding when the world changes.  
  - **Multi-scale**: we reason across **time** (milliseconds to years) and **space** (local details to global context).
 
+---
 
+**Generative world modeling** means using generative models to predict future states, observations, or dynamics of the world; not just classify or react, but **simulate what could happen next.**
 
+> *For a high-level motivation and roadmap, see Yann LeCun’s 2025 lecture in Harvard on [Self-Supervised Learning, JEPA, and World Models](https://www.youtube.com/watch?v=yUmDRxV0krg).*
 
+<img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/3543890e-866c-408f-aec7-cc85fa8015ee" />
+
+In generative world modeling, **“generation” means simulating how the world evolves over time**. Specifically:
+
+- **Predict next observation**: Given what the agent sees now and the action it takes, the model generates the most likely immediate future (e.g., next video frame, sensor reading, or reward).  
+- **Roll out full trajectories**: By repeatedly applying the dynamics model, the agent can **imagine multi-step futures**; like planning a path through a maze without moving.  
+- **Generate counterfactuals for planning**: The model simulates **“what if?” scenarios** for different actions, enabling comparison, safe decision-making, and even creating synthetic training data (“dreams”).
+
+This turns the world model into an **internal simulator not just a memory bank**, but a tool for reasoning ahead.
