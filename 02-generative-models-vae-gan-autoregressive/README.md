@@ -35,8 +35,14 @@ We first encountered AR modeling in the [learning at scale, ssl](../01-learning-
 - Examples:
 
   * **Generative Pretrained Transformer (GPT)** (language), Radford et al., (2018)
-    
-  * **Image GPT(iGPT)** (vision), Chen et al., (2020) <img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/b37b668a-4684-46f5-ba41-b64f449e610f" />
+
+    <img src="https://miro.medium.com/v2/resize:fit:4800/format:webp/0*_lYzlpepuUdEh4wk.gif" width="600">
+
+![Animation](https://miro.medium.com/v2/resize:fit:4800/format:webp/0*_lYzlpepuUdEh4wk.gif)
+
+  * **Image GPT(iGPT)** (vision), Chen et al., (2020)
+
+    <img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/b37b668a-4684-46f5-ba41-b64f449e610f" />
 
 
 
