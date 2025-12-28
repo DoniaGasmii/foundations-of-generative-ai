@@ -32,7 +32,7 @@ We first encountered AR modeling in the [learning at scale, ssl](../01-learning-
 
 - AR models use **causal attention** (e.g., in GPT) to prevent future leakage. <img width="100" height="50" alt="image" src="https://github.com/user-attachments/assets/a8af57bc-59cb-4947-b15d-e8edd39eff3d" />
 
-- Two parameterizations: **shared weights** (efficient; e.g., GPT) vs. **position-specific** (e.g., MADE).
+- Two parameterizations: **shared weights** (One model for all positions, efficient; e.g., GPT) vs. **position-specific** (Position-specific models, e.g., MADE).
 <p align="center">
   <img width="500" height="200" alt="image" src="https://github.com/user-attachments/assets/60f5cb8f-dc21-48ab-bb21-3bd89e23f80b" />
 </p>
@@ -54,6 +54,7 @@ We first encountered AR modeling in the [learning at scale, ssl](../01-learning-
   />
 </p>
 
+## 2. Variational Autoencoders (VAEs)
 
 
 
@@ -64,47 +65,12 @@ We first encountered AR modeling in the [learning at scale, ssl](../01-learning-
 
 
 
-
-
----
-
+## 3. Generative Adversarial Networks (GANs)
 
 
 
-# Generative Models I - Autoregressive, Adversarial, and Autoencoder
 
-## Overview
-This week covers three fundamental approaches to generative modeling that form the foundation of modern AI systems: Autoregressive Models, Variational Autoencoders (VAEs), and Generative Adversarial Networks (GANs).
 
-- **Goal**: Learn to model the underlying data distribution p(x)
-- **Key Insight**: By learning to generate data, models discover and encode the structure and patterns in the data
-- **Maximum Likelihood Learning**: Minimize KL divergence between data and model distributions
-
----
-
-## 1. Autoregressive Models
-
-### Core Principle
-Model joint distribution by decomposing it into a product of conditionals using the chain rule:
-```
-p(x) = p(x₁)p(x₂|x₁)p(x₃|x₁,x₂)...p(xₜ|x<ₜ)
-```
-
-### Key Properties
-- Sequential prediction: one step at a time
-- Fully general: works for any distribution, any ordering
-- Optimizes exact likelihood
-- Training reduces to supervised learning on each conditional term
-
-### Parameterization Strategies
-1. **Shared Parameters**: One model for all positions (e.g., RNNs, GPT) - more efficient
-2. **Factorized Parameters**: Position-specific models (e.g., NADE, MADE) - more expressive
-
-### Examples
-- **Language**: GPT (Generative Pretrained Transformer)
-- **Vision**: Image GPT (iGPT) - treats images as sequences of pixels
-
----
 
 ## 2. Variational Autoencoders (VAEs)
 
