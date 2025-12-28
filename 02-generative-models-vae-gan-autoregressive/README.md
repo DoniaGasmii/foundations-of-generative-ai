@@ -1,5 +1,7 @@
 # Generative Models I: Autoregressive, Adversarial, Autoencoder      <div style="margin-top: 20px;"></div>       *(+ Diffusion Covered Next Week)*
 
+## Introduction:
+
 **Goal**: Understand the four core generative modeling paradigms that power modern foundation models:
 
 <img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/33f9f4c3-7a58-4197-ae72-9305c2096963" />
@@ -12,6 +14,7 @@ This is achieved using one of four strategies: likelihood maximization, probabil
 
 <img width="700" height="200" alt="image" src="https://github.com/user-attachments/assets/6002c9fc-64ea-43a9-828b-70b35f960d8b" />
 
+## 1. Autoregressive Models
 
 
 
