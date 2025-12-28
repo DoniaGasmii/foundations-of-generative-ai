@@ -39,6 +39,7 @@ We first encountered AR modeling in the [learning at scale, ssl](../01-learning-
     <img src="https://miro.medium.com/v2/resize:fit:4800/format:webp/0*_lYzlpepuUdEh4wk.gif" width="600">
 
   * **Image GPT(iGPT)** (vision), Chen et al., (2020)
+  * 
  <img
     src="https://github.com/user-attachments/assets/b37b668a-4684-46f5-ba41-b64f449e610f"
     width="450"
