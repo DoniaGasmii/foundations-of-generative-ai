@@ -1,4 +1,4 @@
-# Generative Models I: Autoregressive, Adversarial, Autoencoder             *(+ Diffusion Covered Next Week)*
+# Generative Models I: Autoregressive, Adversarial, Autoencoder      <div style="margin-top: 20px;"></div>       *(+ Diffusion Covered Next Week)*
 
 **Goal**: Understand the four core generative modeling paradigms that power modern foundation models:
 
