@@ -20,7 +20,7 @@ Autoregressive (AR) models generate data **sequentially**, predicting each eleme
 
 ![p(x) = \prod_{t=1}^T p(x_t \mid x_{<t})](https://latex.codecogs.com/svg.image?p(x)%20%3D%20\prod_{t%3D1}^T%20p(x_t%20\mid%20x_{%3Ct}))
 
-This factorization turns **density estimation** into a series of standard supervised learning problems—maximizing the log-likelihood:
+This factorization turns **density estimation** into a series of standard supervised learning problems, maximizing the log-likelihood:
 
 ![max log-likelihood](https://latex.codecogs.com/svg.image?\max_\theta%20\log%20p_\theta(x)%20%3D%20\max_\theta%20\sum_{t%3D1}^T%20\log%20p_\theta(x_t%20\mid%20x_{%3Ct}))
 
