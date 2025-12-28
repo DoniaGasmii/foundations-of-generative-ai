@@ -18,15 +18,11 @@ This is achieved using one of four strategies: likelihood maximization, probabil
 
 Autoregressive (AR) models generate data **sequentially**, predicting each element conditioned on all previous ones:
 
-$$
-p(x) = \prod_{t=1}^T p(x_t \mid x_{<t})
-$$
+![p(x) = \prod_{t=1}^T p(x_t \mid x_{<t})](https://latex.codecogs.com/svg.image?p(x)%20%3D%20\prod_{t%3D1}^T%20p(x_t%20\mid%20x_{%3Ct}))
 
 This factorization turns **density estimation** into a series of standard supervised learning problems—maximizing the log-likelihood:
 
-$$
-\max_\theta \log p_\theta(x) = \max_\theta \sum_{t=1}^T \log p_\theta(x_t \mid x_{<t})
-$$
+![max log-likelihood](https://latex.codecogs.com/svg.image?\max_\theta%20\log%20p_\theta(x)%20%3D%20\max_\theta%20\sum_{t%3D1}^T%20\log%20p_\theta(x_t%20\mid%20x_{%3Ct}))
 
 We first encountered AR modeling in the [learning at scale, ssl](01-learning-at-scale-ssl/README.md) lecture as a **self-supervised learning strategy**: it enables exact likelihood optimization (unlike masking, which approximates it) and directly supports generation.
 
