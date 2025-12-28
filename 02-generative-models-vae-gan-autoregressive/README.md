@@ -2,7 +2,7 @@
 
 **Goal**: Understand the four core generative modeling paradigms that power modern foundation models:
 
-<img width="800" height="600" alt="image" src="https://github.com/user-attachments/assets/33f9f4c3-7a58-4197-ae72-9305c2096963" />
+<img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/33f9f4c3-7a58-4197-ae72-9305c2096963" />
 
 > We start with the first three this week; diffusion comes next!
 
