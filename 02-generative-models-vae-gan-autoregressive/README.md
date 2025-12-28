@@ -16,10 +16,26 @@ This is achieved using one of four strategies: likelihood maximization, probabil
 
 ## 1. Autoregressive Models
 
+Autoregressive (AR) models generate data **sequentially**, predicting each element conditioned on all previous ones:  
+\[
+p(x) = \prod_{t=1}^T p(x_t \mid x_{<t}).
+\]  
+This factorization turns **density estimation** into a series of standard supervised learning problems; maximizing likelihood via next-token (or next-pixel) prediction.
 
+We first encountered AR modeling in the [learning at scale, ssl](01-learning-at-scale-ssl/README.md) lecture as a **self-supervised learning strategy**: it enables exact likelihood optimization (unlike masking, which approximates it) and directly supports generation.
 
+**Key notions**:
+- AR models use **causal attention** (e.g., in GPT) to prevent future leakage. <img width="100" height="50" alt="image" src="https://github.com/user-attachments/assets/a8af57bc-59cb-4947-b15d-e8edd39eff3d" />
 
+- Two parameterizations: **shared weights** (efficient; e.g., GPT) vs. **position-specific** (e.g., MADE).
+  
+ <img width="700" height="300" alt="image" src="https://github.com/user-attachments/assets/60f5cb8f-dc21-48ab-bb21-3bd89e23f80b" />
 
+- Examples:
+**Generative Pretrained Transformer (GPT)** (language), Radford et al., (2018)
+**Image GPT(iGPT)** (vision), Chen et al., (2020)
+  
+<img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/b37b668a-4684-46f5-ba41-b64f449e610f" />
 
 
 
