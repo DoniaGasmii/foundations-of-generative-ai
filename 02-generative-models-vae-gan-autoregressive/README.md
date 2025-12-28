@@ -1,3 +1,35 @@
+# Generative Models I: Autoregressive, Adversarial, Autoencoder *(+ Diffusion Covered Next Week)*
+
+**Goal**: Understand the four core generative modeling paradigms that power modern foundation models:
+
+<img width="800" height="600" alt="image" src="https://github.com/user-attachments/assets/33f9f4c3-7a58-4197-ae72-9305c2096963" />
+
+Each learns the data distribution \( p(x) \) differently, via likelihood, probabilistic reconstruction, adversarial games, or iterative denoising. We’ll compare their **objectives**, **trade-offs**, and **roles in foundation models**.
+
+> We start with the first three this week; diffusion comes next!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
+
+
+
 # Generative Models I - Autoregressive, Adversarial, and Autoencoder
 
 ## Overview
