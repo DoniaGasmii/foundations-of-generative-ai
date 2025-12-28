@@ -18,9 +18,9 @@ This is achieved using one of four strategies: likelihood maximization, probabil
 
 Autoregressive (AR) models generate data **sequentially**, predicting each element conditioned on all previous ones:
 
-\[
+$[
 p(x) = \prod_{t=1}^T p(x_t \mid x_{<t})
-\]
+]$
 
 This factorization turns **density estimation** into a series of standard supervised learning problems—maximizing the log-likelihood:
 
