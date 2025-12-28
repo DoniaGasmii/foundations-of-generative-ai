@@ -4,7 +4,9 @@
 
 **Goal**: Understand the four core generative modeling paradigms that power modern foundation models:
 
-<img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/33f9f4c3-7a58-4197-ae72-9305c2096963" />
+<p align="center">
+  <img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/33f9f4c3-7a58-4197-ae72-9305c2096963" />
+</p>
 
 > We start with the first three this week; diffusion comes next!
 
@@ -12,7 +14,9 @@ Each learns the data distribution $p_{\theta}(x)$ **in an unsupervised way**: by
 
 This is achieved using one of four strategies: likelihood maximization, probabilistic reconstruction, adversarial games, or iterative denoising. We’ll compare their **objectives**, **trade-offs**, and **roles in foundation models**.
 
-<img width="700" height="200" alt="image" src="https://github.com/user-attachments/assets/6002c9fc-64ea-43a9-828b-70b35f960d8b" />
+<p align="center">
+  <img width="700" height="200" alt="image" src="https://github.com/user-attachments/assets/6002c9fc-64ea-43a9-828b-70b35f960d8b" />
+</p>
 
 ## 1. Autoregressive Models
 
@@ -29,8 +33,9 @@ We first encountered AR modeling in the [learning at scale, ssl](../01-learning-
 - AR models use **causal attention** (e.g., in GPT) to prevent future leakage. <img width="100" height="50" alt="image" src="https://github.com/user-attachments/assets/a8af57bc-59cb-4947-b15d-e8edd39eff3d" />
 
 - Two parameterizations: **shared weights** (efficient; e.g., GPT) vs. **position-specific** (e.g., MADE).
-  
- <img width="500" height="200" alt="image" src="https://github.com/user-attachments/assets/60f5cb8f-dc21-48ab-bb21-3bd89e23f80b" />
+<p align="center">
+  <img width="500" height="200" alt="image" src="https://github.com/user-attachments/assets/60f5cb8f-dc21-48ab-bb21-3bd89e23f80b" />
+</p>
 
 - Examples:
 
@@ -39,13 +44,15 @@ We first encountered AR modeling in the [learning at scale, ssl](../01-learning-
     <img src="https://miro.medium.com/v2/resize:fit:4800/format:webp/0*_lYzlpepuUdEh4wk.gif" width="600">
 
   * **Image GPT(iGPT)** (vision), Chen et al., (2020)
-  * 
- <img
+    
+<p align="center">
+  <img
     src="https://github.com/user-attachments/assets/b37b668a-4684-46f5-ba41-b64f449e610f"
-    width="450"
+    width="500"
     height="300"
     alt="image"
   />
+</p>
 
 
 
