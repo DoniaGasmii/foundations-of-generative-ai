@@ -24,7 +24,7 @@ This factorization turns **density estimation** into a series of standard superv
 
 ![max log-likelihood](https://latex.codecogs.com/svg.image?\max_\theta%20\log%20p_\theta(x)%20%3D%20\max_\theta%20\sum_{t%3D1}^T%20\log%20p_\theta(x_t%20\mid%20x_{%3Ct}))
 
-We first encountered AR modeling in the [learning at scale, ssl](01-learning-at-scale-ssl/README.md) lecture as a **self-supervised learning strategy**: it enables exact likelihood optimization (unlike masking, which approximates it) and directly supports generation.
+We first encountered AR modeling in the [learning at scale, ssl](../01-learning-at-scale-ssl/README.md) lecture as a **self-supervised learning strategy**: it enables exact likelihood optimization (unlike masking, which approximates it) and directly supports generation.
 
 - AR models use **causal attention** (e.g., in GPT) to prevent future leakage. <img width="100" height="50" alt="image" src="https://github.com/user-attachments/assets/a8af57bc-59cb-4947-b15d-e8edd39eff3d" />
 
