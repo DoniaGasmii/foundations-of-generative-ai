@@ -36,8 +36,9 @@ Explores how foundation models solve new tasks without weight updates, using onl
 </table>
 
 
+## Part I: In-Context Learning and Emergent Behavior
+
+## Part II: Adaptation, Fine-Tuning, and Test-Time Training
 
 
-
-
-
+## Conclusion
