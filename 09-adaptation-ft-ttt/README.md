@@ -12,12 +12,16 @@ This lecture is split into two parts:
   - Frozen-backbone adaptation (e.g., linear probing, ABMIL)
   - Emergent abilities that appear only at scale
 
-- **Part II: Adaptation, Fine-Tuning, and Test-Time Training**  
-  *(Prof. Andreas Krause & Dr. Jonas Hübotter, ETH Zürich)* <img width="150" height="150" alt="image" src="https://github.com/user-attachments/assets/14aadbf9-e5fa-4e27-80cb-0c9e82bf45b7" />
-
+- **Part II: Adaptation, Fine-Tuning, and Test-Time Training**
+- 
+<p align="left">
+  <img src="https://github.com/user-attachments/assets/14aadbf9-e5fa-4e27-80cb-0c9e82bf45b7" alt="image" width="250" height="200" style="vertical-align: middle; margin-right: 20px;">
+  (Prof. Andreas Krause & Dr. Jonas Hübotter, ETH Zürich)
+</p>
   Investigates how models can *learn during inference* by maintaining parametric memory. Topics include:
   - The KV cache memory bottleneck in transformers
   - Self-attention as non-parametric kernel regression
   - Test-time training (TTT) with parametric memory (e.g., linear attention)
   - Active retrieval of useful examples at test time (e.g., SIFT)
   - Reinforcement learning at test time (e.g., TTC-RL, RL²)
+
