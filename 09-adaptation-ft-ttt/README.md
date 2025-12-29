@@ -31,12 +31,10 @@ Explores how foundation models solve new tasks without weight updates, using onl
     <td style="vertical-align: top; text-align: center;">
       <img src="https://github.com/user-attachments/assets/14aadbf9-e5fa-4e27-80cb-0c9e82bf45b7" alt="Prof. Andreas Krause & Dr. Jonas Hübotter" width="350" height="250" style="border-radius: 8px;">
       <br>
-      <small><strong>Andreas Krause</strong><br>ETHZ</small>
-      &nbsp;&nbsp;&nbsp;&nbsp;
-      <small><strong>Jonas Hübotter</strong><br>ETHZ</small>
     </td>
   </tr>
 </table>
+
 
 
 
