@@ -15,7 +15,7 @@ This lecture is split into two parts:
 - **Part II: Adaptation, Fine-Tuning, and Test-Time Training**
   
 <p align="left">
-  <img src="https://github.com/user-attachments/assets/14aadbf9-e5fa-4e27-80cb-0c9e82bf45b7" alt="image" width="350" height="250" style="vertical-align: middle; margin-right: 20px;">
+  <img src="https://github.com/user-attachments/assets/14aadbf9-e5fa-4e27-80cb-0c9e82bf45b7" alt="image" width="350" height="250" style="vertical-align: middle;">
 </p>
 
   Investigates how models can *learn during inference* by maintaining parametric memory. Topics include:
@@ -24,6 +24,7 @@ This lecture is split into two parts:
   - Test-time training (TTT) with parametric memory (e.g., linear attention)
   - Active retrieval of useful examples at test time (e.g., SIFT)
   - Reinforcement learning at test time (e.g., TTC-RL, RL²)
+
 
 
 
