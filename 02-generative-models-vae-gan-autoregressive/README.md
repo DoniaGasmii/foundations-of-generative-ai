@@ -33,9 +33,6 @@ We first encountered AR modeling in the [learning at scale, ssl](../01-learning-
 - AR models use **causal attention** (e.g., in GPT) to prevent future leakage. <img width="100" height="50" alt="image" src="https://github.com/user-attachments/assets/a8af57bc-59cb-4947-b15d-e8edd39eff3d" />
 
 - Two parameterizations: **shared weights** (One model for all positions, efficient; e.g., GPT) vs. **position-specific** (Position-specific models, e.g., MADE).
-<p align="center">
-  <img width="500" height="200" alt="image" src="https://github.com/user-attachments/assets/60f5cb8f-dc21-48ab-bb21-3bd89e23f80b" />
-</p>
 
 - Examples:
 
