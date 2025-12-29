@@ -1,4 +1,4 @@
-# In-Context Learning & Emergent Behavior - Adaptation, Fine-Tuning &Test-Time Training
+# In-Context Learning & Emergent Behavior - <br> Adaptation, Fine-Tuning &Test-Time Training
 
 ## Introduction:
 
@@ -34,6 +34,7 @@ Explores how foundation models solve new tasks without weight updates, using onl
     </td>
   </tr>
 </table>
+
 
 
 
