@@ -1,8 +1,11 @@
 # Foundation Models in Robotics  
 
 *Guest Lecture by **Dr. Hang Zhao***
+
 *Assistant Professor, Tsinghua University | Founder, Galaxea & MARS Lab*
+
 *Embodied Intelligence: From Self-Driving to Humanoid Parkour*
+
 ---
 
 ##  Big Picture
@@ -73,6 +76,7 @@ When visual info is uncertain, the VLM **requests tools**:
 
 ##  Key Takeaway
 > **Robots need more than perception: they need spatial awareness, athletic control, and high-level reasoning. Current systems are hybrid, but they’re getting smarter, faster, and more embodied every day.**
+
 
 
 
