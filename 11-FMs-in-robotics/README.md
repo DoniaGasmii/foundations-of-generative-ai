@@ -17,7 +17,7 @@
 
 ---
 
-## 🚗 Self-Driving: Dual-System Design 
+## Self-Driving: Dual-System Design 
 
 ###  End-to-end fails at L4 autonomy (no human driver) → can’t handle long-tail cases/black box is not reliable or controlable.
 ###  Solution: **DriveVLM-Dual**
@@ -42,7 +42,7 @@ When visual info is uncertain, the VLM **requests tools**:
 
 ---
 
-## 🤖 Manipulation: Galaxea G0 — Dual-System VLA 
+## Manipulation: Galaxea G0 — Dual-System VLA 
 
 - **Fast System (G0-VLA, 3B)**: Real-time motion planning (200 Hz)
 - **Slow System (G0-VLM, 30B)**: Task planning & HRI (2 Hz)
@@ -60,7 +60,7 @@ When visual info is uncertain, the VLM **requests tools**:
 1. **Soft Dynamics Constraints** → penalize (don’t forbid) collisions → lets robots learn from falls.
 2. **Curriculum Learning** → start easy (flat ground), then add hurdles, slopes, jumps.
 3. **Real2Sim2Real** → scan real scenes → train in sim → deploy zero-shot on real robot.
-4. 
+   
 <img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/db2e207f-9c9f-49f7-a8cb-94340792e760" />
 
 >  *Result: Humanoids that run, jump, fall, and get up: using whole-body control, not just legs.*
@@ -76,6 +76,7 @@ When visual info is uncertain, the VLM **requests tools**:
 
 ##  Key Takeaway
 > **Robots need more than perception: they need spatial awareness, athletic control, and high-level reasoning. Current systems are hybrid, but they’re getting smarter, faster, and more embodied every day.**
+
 
 
 
