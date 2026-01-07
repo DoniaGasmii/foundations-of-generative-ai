@@ -1,37 +1,73 @@
-# Generative Models I - Autoregressive, Adversarial, and Autoencoder
+# Generative Models I: Autoregressive, Adversarial, Autoencoder      <div style="margin-top: 20px;"></div>       *(+ Diffusion Covered Next Week)*
 
-## Overview
-This week covers three fundamental approaches to generative modeling that form the foundation of modern AI systems: Autoregressive Models, Variational Autoencoders (VAEs), and Generative Adversarial Networks (GANs).
+## Introduction:
 
-- **Goal**: Learn to model the underlying data distribution p(x)
-- **Key Insight**: By learning to generate data, models discover and encode the structure and patterns in the data
-- **Maximum Likelihood Learning**: Minimize KL divergence between data and model distributions
+**Goal**: Understand the four core generative modeling paradigms that power modern foundation models:
 
----
+<p align="center">
+  <img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/33f9f4c3-7a58-4197-ae72-9305c2096963" />
+</p>
+
+> We start with the first three this week; diffusion comes next!
+
+Each learns the data distribution $p_{\theta}(x)$ **in an unsupervised way**: by discovering and encoding the underlying rules, patterns, and relationships that define the data’s structure **so it can generate new, realistic samples from that distribution**. 
+
+This is achieved using one of four strategies: likelihood maximization, probabilistic reconstruction, adversarial games, or iterative denoising. We’ll compare their **objectives**, **trade-offs**, and **roles in foundation models**.
+
+<p align="center">
+  <img width="700" height="200" alt="image" src="https://github.com/user-attachments/assets/6002c9fc-64ea-43a9-828b-70b35f960d8b" />
+</p>
 
 ## 1. Autoregressive Models
 
-### Core Principle
-Model joint distribution by decomposing it into a product of conditionals using the chain rule:
-```
-p(x) = p(x₁)p(x₂|x₁)p(x₃|x₁,x₂)...p(xₜ|x<ₜ)
-```
+Autoregressive (AR) models generate data **sequentially**, predicting each element conditioned on all previous ones:
 
-### Key Properties
-- Sequential prediction: one step at a time
-- Fully general: works for any distribution, any ordering
-- Optimizes exact likelihood
-- Training reduces to supervised learning on each conditional term
+![p(x) = \prod_{t=1}^T p(x_t \mid x_{<t})](https://latex.codecogs.com/svg.image?p(x)%20%3D%20\prod_{t%3D1}^T%20p(x_t%20\mid%20x_{%3Ct}))
 
-### Parameterization Strategies
-1. **Shared Parameters**: One model for all positions (e.g., RNNs, GPT) - more efficient
-2. **Factorized Parameters**: Position-specific models (e.g., NADE, MADE) - more expressive
+This factorization turns **density estimation** into a series of standard supervised learning problems, maximizing the log-likelihood:
 
-### Examples
-- **Language**: GPT (Generative Pretrained Transformer)
-- **Vision**: Image GPT (iGPT) - treats images as sequences of pixels
+![max log-likelihood](https://latex.codecogs.com/svg.image?\max_\theta%20\log%20p_\theta(x)%20%3D%20\max_\theta%20\sum_{t%3D1}^T%20\log%20p_\theta(x_t%20\mid%20x_{%3Ct}))
 
----
+We first encountered AR modeling in the [learning at scale, ssl](../01-learning-at-scale-ssl/README.md) lecture as a **self-supervised learning strategy**: it enables exact likelihood optimization (unlike masking, which approximates it) and directly supports generation.
+
+- AR models use **causal attention** (e.g., in GPT) to prevent future leakage. <img width="100" height="50" alt="image" src="https://github.com/user-attachments/assets/a8af57bc-59cb-4947-b15d-e8edd39eff3d" />
+
+- Two parameterizations: **shared weights** (One model for all positions, efficient; e.g., GPT) vs. **position-specific** (Position-specific models, e.g., MADE).
+
+- Examples:
+
+  * **Generative Pretrained Transformer (GPT)** (language), Radford et al., (2018)
+
+    <img src="https://miro.medium.com/v2/resize:fit:4800/format:webp/0*_lYzlpepuUdEh4wk.gif" width="600">
+
+  * **Image GPT(iGPT)** (vision), Chen et al., (2020)
+    
+<p align="center">
+  <img
+    src="https://github.com/user-attachments/assets/b37b668a-4684-46f5-ba41-b64f449e610f"
+    width="500"
+    height="300"
+    alt="image"
+  />
+</p>
+
+## 2. Variational Autoencoders (VAEs)
+
+
+
+
+
+
+
+
+
+
+## 3. Generative Adversarial Networks (GANs)
+
+
+
+
+
 
 ## 2. Variational Autoencoders (VAEs)
 
