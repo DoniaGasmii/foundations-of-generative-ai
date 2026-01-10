@@ -56,6 +56,3 @@ This lecture bridges foundational building blocks (tokenization, attention) to *
 - [Apertus Technical Report](https://arxiv.org/abs/2504.06219)  
 - [DINOv2 Paper (TMLR 2024)](https://arxiv.org/abs/2304.07193)  
 - [DINOv3 Preprint (Siméoni et al., 2025)]  
----
-
-✨ *Notes compiled by Donia — intended for study & public sharing (2026/27 course edition will be open-sourced!)*
