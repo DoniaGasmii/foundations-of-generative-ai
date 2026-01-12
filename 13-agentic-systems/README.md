@@ -1,6 +1,6 @@
 # Foundation Models and Agentic Systems
 
-This lecture explores how foundation models evolve from passive generators into **active AI agents**—systems that **perceive, reason, act, and learn** over time in dynamic environments.
+This lecture explores how foundation models evolve from passive generators into **active AI agents**, systems that **perceive, reason, act, and learn** over time in dynamic environments.
 
 ### Core Concepts
 
@@ -45,4 +45,5 @@ This lecture explores how foundation models evolve from passive generators into 
 ---
 
 > **Key Takeaway**: The future isn’t just smarter models—it’s **smarter systems** that act purposefully in the world, grounded in tools, memory, and feedback.
+
 
