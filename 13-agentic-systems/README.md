@@ -40,10 +40,9 @@ This lecture explores how foundation models evolve from passive generators into 
 
 - AI as collaborative **research partners** in math, biology, and climate science.
 - **Self-improving systems** that refine their reasoning, tools, and world models over time.
-- Foundation models embedded in scientific workflows—from drug design to weather prediction.
-
----
+- Foundation models embedded in scientific workflows, from drug design to weather prediction.
 
 > **Key Takeaway**: The future isn’t just smarter models—it’s **smarter systems** that act purposefully in the world, grounded in tools, memory, and feedback.
+
 
 
